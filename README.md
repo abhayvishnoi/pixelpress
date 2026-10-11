@@ -42,7 +42,7 @@ processing server or third-party runtime service.
 ## Deploy to GitHub Pages
 
 The GitHub Actions workflow in `.github/workflows/deploy-pages.yml` builds the
-Angular app with the repository name as its base path and publishes it to
-GitHub Pages whenever changes are pushed to `main` or `master`. In the
-repository's **Settings → Pages**, select **GitHub Actions** as the deployment
-source if it is not already selected.
+Angular app with the repository name as its base path, enables GitHub Pages if
+needed, and publishes it whenever changes are pushed to `main` or `master`. If
+your repository policy prevents automatic Pages enablement, select
+**GitHub Actions** as the deployment source in **Settings → Pages**.
